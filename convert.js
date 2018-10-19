@@ -1,13 +1,7 @@
-let num = 10;
-let unit1 = "m";
-const to = "to";
-let unit2 = "mm";
-
-var convert = require('convert-units');
-
-if(process.argv.length<6){
-    
+const convert = require('convert-units');
+try{
+    if(process.argv.length!=6) throw Error();
+        console.log(process.argv[2] + " " + process.argv[3] + " are " + convert(process.argv[2]).from(process.argv[3]).to(process.argv[5]) + " " +  process.argv[5]);   
+}catch (e){
+    console.error("Invalid parameters")
 }
-
-console.log(convert(num).from(unit1).to(unit2));
-
