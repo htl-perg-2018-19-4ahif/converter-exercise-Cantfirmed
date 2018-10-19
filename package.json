@@ -1,7 +1,7 @@
 {
   "name": "9030-converter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Implement a command-line Node.js application named `convert.js` that can convert lengths and weights. You can check if your code is correct by running the unit tests in [converter.spec.js](spec/converter.spec.js).",
   "main": "index.js",
   "scripts": {
     "test": "jasmine"
@@ -11,5 +11,16 @@
   "devDependencies": {
     "jasmine": "^3.2.0",
     "jasmine-spec-reporter": "^4.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htl-perg-2018-19-4ahif/converter-exercise-Cantfirmed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/htl-perg-2018-19-4ahif/converter-exercise-Cantfirmed/issues"
+  },
+  "homepage": "https://github.com/htl-perg-2018-19-4ahif/converter-exercise-Cantfirmed#readme",
+  "dependencies": {
+    "convert-units": "^2.3.4"
   }
 }
